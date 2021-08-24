@@ -1,0 +1,153 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.main {
+  border-top: 3px solid #CB7769;
+}
+
+@font-face {
+font-family: proxima;
+src: url(ProximaNovaFont.otf) format("opentype") ;
+}
+
+.navbar-nav {
+margin-left: auto !important;
+}
+/* end */
+.navbar {
+background-color: #FFFFFF !important;
+}
+.hire-link {
+  background-color: #F6694C;
+  margin: 5px;
+  font-size: 12px;
+  height: 45px;
+}
+
+.hire-link a {
+
+  color: #FFF !important;
+
+}
+.navbar-brand {
+font-family: 'Cinzel Decorative', cursive;
+font-size: 25px;
+font-weight: 200;
+}
+
+
+
+#navbarNav a {
+font-weight: 400;
+opacity: 1;
+border-bottom: 2px solid transparent;
+transition: border-bottom 2s ease;
+}
+#navbarNav a:hover {
+  border-bottom: 2.5px solid #F6694C;
+
+}
+#hero {
+background-image: url(./images/main.jpg);
+background-size: 100% 100%;
+height: 500px;
+font-family: 'Josefin Slab', serif;
+}
+
+.hero-container {
+position: relative;
+top: 25%;
+}
+.hero-content {
+background-color: rgba(0, 0, 0, 0.9);
+height: 200px;
+border-left: 5px solid #CB7769;
+border-radius: 1%;
+}
+.hero-content h1 {
+color: #FFF;
+margin: 20px;
+}
+
+.hero-content h4 {
+margin: 20px;
+color: #888A96;
+line-height: 35px;
+
+}
+
+.jumbotron p {
+font-size: 30px;
+  line-height: 30px;
+}
+.jheader {
+font-family: 'Josefin Slab', serif;
+}
+/* .jheader span {
+  position: relative;
+  left: 40%;
+} */
+
+.offer-head h1 {
+
+  font-family: 'Josefin Slab', serif;
+  padding-right: 20px;
+  font-size: 60px;
+  color: gray;
+}
+
+.offer-head-wrapper h5 {
+  font-family: 'proxima', serif;
+
+}
+.offer-head-wrapper {
+color: #80a1c2;
+}
+
+.offer-details p {
+  color: #333333;
+  font-size: 1em;
+  line-height: 25px;
+  padding-top: 10px;
+}
+.offer-head-wrapper i {
+  color: #8DA5C3;
+}
+.bonus {
+  background-color: #35383F;
+}
+
+.bonus-head h3 {
+  color: #FFF;
+  font-family: 'proxima', serif;
+
+}
+.bonus-item {
+  margin: 8px 0;
+}
+.bonus-item li {
+  color: #EEE9E9;
+  font-family: 'proxima', serif;
+  font-size: 15px;
+  word-break: break-all;
+}
+.bonus-item i {
+color: #F6694C;
+}
+.legal {
+  background: #3F4149;
+  color: #D3D3D3;
+  font-family: 'proxima', serif;
+  line-height: 30px;
+}
+footer {
+  background: #353A40;
+  font-family: 'Cinzel Decorative', cursive;
+color: gray;
+}
+
+
